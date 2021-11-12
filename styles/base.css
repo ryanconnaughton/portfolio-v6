@@ -1,3 +1,99 @@
-body {
-  background: red;
+:root {
+  font-size: 16px;
+  scroll-behavior: auto;
+  scroll-behavior: smooth;
+  --color-dark: #000000;
+  --color-light: #ffffff;
+  --color-blue: #3582b9;
+  --color-grey1: #707070;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 400;
+  background: var(--color-light);
+  color: var(--color-dark);
+  font-style: normal;
+}
+
+/* Typography */
+strong,
+b {
+  font-weight: 600;
+}
+em,
+i {
+  font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.3em;
+}
+h1 {
+  font-size: 3.8em;
+  line-height: 1.2em;
+  color: var(--color-dark);
+}
+h2 {
+  font-size: 2.3em;
+  color: var(--color-dark);
+}
+h3 {
+  font-size: 1.21em;
+  color: var(--color-dark);
+}
+h4 {
+  font-size: 1.5em;
+  color: var(--color-grey1);
+  line-height: 1.5em;
+}
+h5 {
+  font-size: 0.8em;
+  color: var(--color-grey1);
+}
+
+p {
+  color: var(--color-grey1);
+  font-size: 1.05em;
+  margin: 1em 0;
+  line-height: 1.5em;
+}
+.bold {
+  font-family: proxima-nova, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Buttons & links */
+a:link,
+a:visited {
+  color: var(--color-blue);
+}
+a:hover {
+  transition: all 0.5s;
+  text-decoration: underline;
+}
+
+/* Helpers */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
 }
