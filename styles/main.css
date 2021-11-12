@@ -1,1 +1,5 @@
 @import './base.css';
+
+ul {
+  list-style: none;
+}
