@@ -1,0 +1,26 @@
+@media screen and (max-width: 700px) {
+  body.container {
+    padding: 3em;
+    /* background: red; */
+  }
+  main {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50em;
+    overflow: visible;
+  }
+  main .chunk {
+    padding-left: 3em;
+    font-size: 1.2em;
+    /* background: red; */
+  }
+
+  #hero .roles .category {
+    display: flex;
+    margin-bottom: 0.25em;
+    /* background: red; */
+  }
+  li {
+    margin-top: 0.5em;
+  }
+}

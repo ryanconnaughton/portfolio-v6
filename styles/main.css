@@ -1,5 +1,6 @@
 @import './_reset.css';
 @import './base.css';
+@import './responsive.css';
 
 .container {
   margin: 0 auto;
@@ -18,7 +19,7 @@ li {
   padding-right: 1.2em;
   margin-right: 0.2em;
 }
-.category.--ux {
+.--ux {
   color: var(--color-blue);
   position: relative;
 }
@@ -96,6 +97,6 @@ main {
 footer {
   display: flex;
   color: var(--color-grey1);
-  justify-content: center;
+  justify-content: start;
   padding: 1.5em 0;
 }
