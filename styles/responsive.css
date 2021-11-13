@@ -3,14 +3,25 @@
     padding: 3em;
     /* background: red; */
   }
+
+  h1.mb {
+    display: block;
+    margin-bottom: 0.1em;
+  }
+
+  h1.dt {
+    display: none;
+  }
+
   main {
     flex-direction: column;
     justify-content: space-between;
     height: 50em;
     overflow: visible;
   }
+
   main .chunk {
-    padding-left: 3em;
+    padding: 1.5em 2.5em;
     font-size: 1.2em;
     /* background: red; */
   }
@@ -20,7 +31,14 @@
     margin-bottom: 0.25em;
     /* background: red; */
   }
+
   li {
     margin-top: 0.5em;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  :root {
+    font-size: 15px;
   }
 }
