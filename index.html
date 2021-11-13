@@ -110,6 +110,14 @@
         </div>
       </main>
     </div>
-    <footer>© Ryan Connaughton Ltd - 2021</footer>
+    <footer>© Ryan Connaughton Ltd<span class="year"></span></footer>
   </body>
+
+  <script>
+    const domYear = document.querySelector('.year');
+    const nowDate = new Date();
+    const nowYear = nowDate.getFullYear();
+
+    domYear.innerHTML = `&nbsp; - &nbsp;${nowYear}`;
+  </script>
 </html>
