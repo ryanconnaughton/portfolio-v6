@@ -12,8 +12,6 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap"
       rel="stylesheet"
     />
-
-    <script src="js/main.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -28,7 +26,7 @@
               <span class="category --tinkerer">Tinkerer</span>
             </h2>
           </div>
-          <div class="cta">
+          <div class="cta" id="cta-email">
             <button class="--primary">Reveal my email</button>
           </div>
         </div>
@@ -110,14 +108,16 @@
         </div>
       </main>
     </div>
-    <footer>© Ryan Connaughton Ltd<span class="year"></span></footer>
+    <footer>© Ryan Connaughton Ltd <span class="year"></span></footer>
+
+    <script>
+      const domYear = document.querySelector('.year');
+      const nowDate = new Date();
+      const nowYear = nowDate.getFullYear();
+
+      domYear.innerHTML = `&nbsp; - &nbsp;${nowYear}`;
+    </script>
+
+    <script src="js/main.js" type="module"></script>
   </body>
-
-  <script>
-    const domYear = document.querySelector('.year');
-    const nowDate = new Date();
-    const nowYear = nowDate.getFullYear();
-
-    domYear.innerHTML = `&nbsp; - &nbsp;${nowYear}`;
-  </script>
 </html>
