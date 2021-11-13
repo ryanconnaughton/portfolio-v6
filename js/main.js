@@ -24,9 +24,11 @@ function revealEmail() {
   elNew.className = '--primary';
   elNew.innerHTML = emailStr;
 
-  // TODO: add copy/mail to buttons
+  // TODO: add copy/mailto buttons
   // const elCopyBtn = document.createElement('button');
   // const elMailToBtn = document.createElement('button');
+
+  // TODO: register GA listener for each CTA click
 
   elEmail.replaceChild(elNew, elEmail.childNodes[1]);
 }
