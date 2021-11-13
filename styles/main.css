@@ -15,7 +15,8 @@ li {
 }
 
 .category {
-  padding-right: 1.3em;
+  padding-right: 2em;
+  margin-right: 0.3em;
 }
 .category.--ux {
   color: var(--color-blue);
@@ -30,7 +31,6 @@ li {
 .--tinkerer {
   color: var(--color-green) !important;
   position: relative;
-  padding-right: 1.2em;
 }
 .--tinkerer::after {
   position: absolute;
