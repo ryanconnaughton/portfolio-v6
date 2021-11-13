@@ -1,5 +1,92 @@
+@import './_reset.css';
 @import './base.css';
 
+.container {
+  margin: 0 auto;
+  padding: 5em;
+  max-width: 1000px;
+}
+
 ul {
-  list-style: none;
+  margin-top: 0.5em;
+}
+li {
+  padding: 0.4em 0;
+}
+
+.category {
+  padding-right: 1.3em;
+}
+.category.--ux {
+  color: var(--color-blue);
+  position: relative;
+}
+.--ux::after {
+  position: absolute;
+  top: 0.1em;
+  right: 0;
+  content: '✏️';
+}
+.--tinkerer {
+  color: var(--color-green) !important;
+  position: relative;
+  padding-right: 1.2em;
+}
+.--tinkerer::after {
+  position: absolute;
+  right: 0;
+  content: '🛠';
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+#hero .roles {
+  margin: 0.6em 0;
+}
+#hero .cta {
+  display: flex;
+  margin: 1em 0;
+}
+
+/* .chunk::before {
+  content: 'Linkss One';
+  width: 5em;
+  height: 5em;
+  background: url('../assets/sticky-note.svg') no-repeat left center;
+  background-size: 10em;
+  overflow: visible;
+  transform: rotate(9deg);
+} */
+main {
+  display: flex;
+  margin-bottom: 5em;
+}
+.chunk {
+  flex: 1;
+  padding: 1.5em;
+  z-index: 1;
+  position: relative;
+}
+.chunk::before {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  left: -1em;
+  top: -1em;
+  width: 150%;
+  height: 150%;
+  background: url('../assets/sticky-note.svg') no-repeat left center;
+  transform: rotate(9deg);
+}
+
+footer {
+  display: flex;
+  color: var(--color-grey1);
+  justify-content: center;
+  padding: 1.5em 0;
 }

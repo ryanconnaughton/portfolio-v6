@@ -1,17 +1,32 @@
 :root {
-  font-size: 16px;
+  font-size: 17px;
   scroll-behavior: auto;
   scroll-behavior: smooth;
   --color-dark: #000000;
   --color-light: #ffffff;
   --color-blue: #3582b9;
   --color-grey1: #707070;
+  --color-green: #4a832d;
+  --color-orange: #ff9b00;
 }
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
+
+/* $color-primary: #60964f;
+$color-secondary: #000;
+$color-third: #37352e;
+$color-text: #707070;
+$color-bg: #ffffff;
+$color-white: #ffffff;
+$color-grey0: #fafafa;
+$color-grey1: #eeeeee;
+$color-grey2: #b2b2b2;
+$color-grey3: #707070;
+$color-grey4: #d7d7d7;
+$color-outline: #483ad1; */
 
 body,
 html {
@@ -42,15 +57,15 @@ h6 {
 }
 h1 {
   font-size: 3.8em;
-  line-height: 1.2em;
+  line-height: 1.1em;
   color: var(--color-dark);
 }
 h2 {
-  font-size: 2.3em;
+  font-size: 2em;
   color: var(--color-dark);
 }
 h3 {
-  font-size: 1.21em;
+  font-size: 1.2em;
   color: var(--color-dark);
 }
 h4 {
@@ -81,9 +96,36 @@ a:visited {
   color: var(--color-blue);
 }
 a:hover {
-  transition: all 0.5s;
+  color: var(--color-dark);
+  transition: all 0.3s;
   text-decoration: underline;
 }
+button {
+  border-radius: 0.4rem;
+  border: none;
+  transition: all 0.5s;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none !important;
+  text-align: center;
+  color: red;
+  color: var(--color-light);
+  padding: 1rem 1.3rem;
+}
+button:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+button.--primary {
+  background: var(--color-blue);
+}
+/* .btn --secondary {
+  border: 1px solid $color-primary;
+  border: 1px solid $color-grey2;
+  color: $color-primary;
+  background: none;
+} */
 
 /* Helpers */
 .text-center {

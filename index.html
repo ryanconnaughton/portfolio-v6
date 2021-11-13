@@ -15,36 +15,86 @@
 
     <script src="js/main.js" defer></script>
   </head>
-  <body>
-    <h1>Ryan Connaughton</h1>
-    <h2>🎩 UX Designer, Researcher, Tinkerer</h2>
-    <h3>Contract status: Available</h3><button><a mailto:"hello@ryannconnaughton">Email me</a></button>
+  <body class="container">
+    <head>
+      <div id="hero">
+        <h1>Ryan Connaughton</h1>
+        <div class="roles">
+          <h2>
+            <span class="category --ux">UX Designer</span>
+            <span style="color: var(--color-blue)">Researcher 🔬</span>
+            <span class="category --tinkerer">Tinkerer</span>
+          </h2>
+        </div>
+        <div class="cta">
+          <button class="--primary">Reveal my email</button>
+        </div>
+      </div>
+    </head>
 
-    <h3>Probably what you came for:</h3>
-    <ul>
-      <li><a href="/assets/ryan_connaughton-cv-resume.pdf" target="_blank"">C.V/Résumé</a></li>
-      <li><a href="https://linkedin.com/in/ryanconnaughton" target="_blank">LinkedIn</a></li>
-      <li><a href="https://www.github.com/ryanconnaughton" target="_blank">GitHub</a></li>
-    </ul>
+    <main>
+      <div class="chunk">
+        <h3>Primary</h3>
+        <ul>
+          <li>
+            <a
+              class="category --ux"
+              href="/assets/ryan_connaughton-cv-resume.pdf"
+              target="_blank"
+              >C.V/Résumé</a
+            >
+          </li>
+          <li>
+            <a
+              class="category --ux"
+              href="https://linkedin/com/in/ryanconnaughton"
+              target="_blank"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
 
-    <h3>Some UX case studies I've written:</h3>
-    <ul>
-      <li><a href="https://medium.com/@ryanconnaughton" target="_blank">Medium</li></a>
-    </ul>
+      <div class="chunk">
+        <h3>On the side</h3>
+        <ul>
+          <li>
+            <a
+              class="--tinkerer"
+              href="https://github.com/ryanconnaughton"
+              target="_blank"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a class="--tinkerer" href="https://www.tertle.io" target="_blank"
+              >Tertle</a
+            >
+          </li>
+          <li>
+            <a
+              class="category --ux"
+              href="https://medium.com/@ryanconnaughton"
+              target="_blank"
+              >Medium</a
+            >
+          </li>
+        </ul>
+      </div>
 
-    <h3>Current side project(s):</h3>
-    <ul>
-      <li><a href="https://www.tertle.io" target="_blank">Tertle.io</a></li>
-    </ul>
-    
-    <h3>Probably not what you came for:</h3>
-    <ul>
-      <li><a href="https://bit.ly/3kxbf3f" target="_blank">YouTube</a></li>
-      <li><a href="https://bit.ly/3kxbf3f" target="_blank">Vimeo</a></li>
-    </ul>
-    </p>
+      <div class="chunk">
+        <h3>Talks</h3>
+        <ul>
+          <li><a href="https://bit.ly/3kxbf3f" target="_blank">YouTube</a></li>
+          <li>
+            <a href="https://vimeo.com/ryanconnaughton" target="_blank"
+              >Vimeo</a
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer>© Ryan Connaughton Ltd 2021 - Company No. 1210078</footer>
   </body>
-  <footer>
-    (C) Ryan Connaughton Ltd 2021, Company No. 1210078
-  </footer>
 </html>
