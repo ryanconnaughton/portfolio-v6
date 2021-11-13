@@ -64,8 +64,7 @@ li {
   margin: 0.6em 0;
 }
 #hero .cta {
-  display: flex;
-  margin: 1em 0;
+  margin: 1em 0 1.5em 0;
 }
 
 /* .chunk::before {
@@ -77,13 +76,14 @@ li {
   overflow: visible;
   transform: rotate(9deg);
 } */
+
 main {
   display: flex;
   padding-bottom: 10em;
 }
 .chunk {
   flex: 1;
-  padding: 1.5em;
+  padding: 1.75em;
   z-index: 1;
   position: relative;
 }
@@ -92,7 +92,7 @@ main {
   content: '';
   position: absolute;
   left: -1em;
-  top: -1em;
+  top: 0em;
   width: 150%;
   height: 150%;
   background: url('../assets/sticky-note.svg') no-repeat left center;
