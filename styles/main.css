@@ -21,11 +21,14 @@ li {
 }
 
 .category {
-  padding-right: 1.2em;
-  margin-right: 0.5em;
+  padding-right: 1.3em;
   font-family: proxima-nova, sans-serif;
 }
+
 .roles { font-style: italic; }
+.roles >* ::after {
+  right: 0.2em !important;
+}
 .--ux {
   color: var(--color-blue);
   position: relative;
@@ -33,7 +36,7 @@ li {
 .--ux::after {
   position: absolute;
   top: 0.1em;
-  right: 0.1em;
+  right: 0;
   content: '✏️';
 }
 .--tinkerer {
@@ -42,7 +45,7 @@ li {
 }
 .--tinkerer::after {
   position: absolute;
-  right: -0.1em;
+  right: 0;
   content: '🛠';
 }
 .--researcher {
@@ -51,7 +54,7 @@ li {
 }
 .--researcher::after {
   position: absolute;
-  right: -0.1em;
+  right: 0;
   content: '🔬';
 }
 
