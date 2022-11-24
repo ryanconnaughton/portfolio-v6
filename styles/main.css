@@ -22,8 +22,10 @@ li {
 
 .category {
   padding-right: 1.2em;
-  margin-right: 0.2em;
+  margin-right: 0.5em;
+  font-family: proxima-nova, sans-serif;
 }
+.roles { font-style: italic; }
 .--ux {
   color: var(--color-blue);
   position: relative;
@@ -31,7 +33,7 @@ li {
 .--ux::after {
   position: absolute;
   top: 0.1em;
-  right: -0.2em;
+  right: -0.1em;
   content: '✏️';
 }
 .--tinkerer {
@@ -40,7 +42,7 @@ li {
 }
 .--tinkerer::after {
   position: absolute;
-  right: -0.2em;
+  right: -0.1em;
   content: '🛠';
 }
 .--researcher {
@@ -49,7 +51,7 @@ li {
 }
 .--researcher::after {
   position: absolute;
-  right: -0.2em;
+  right: -0.1em;
   content: '🔬';
 }
 
@@ -64,7 +66,7 @@ li {
   margin: 0.6em 0;
 }
 #hero .cta {
-  margin: 1em 0;
+  margin-top: 1em;
 }
 
 /* .chunk::before {
