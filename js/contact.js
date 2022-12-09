@@ -1,3 +1,5 @@
+const elEmail = document.getElementById('cta-email');
+
 // DATA
 function getEmail() {
   const prefix = 'hello';
@@ -26,7 +28,6 @@ function revealEmail() {
 
 // DOM
 function init() {
-  const elEmail = document.getElementById('cta-email');
   elEmail.addEventListener('click', revealEmail);
 }
 
