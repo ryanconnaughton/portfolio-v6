@@ -50,7 +50,7 @@
 .grid-item {
   position: relative;
   width: 32%;
-  height: calc(auto - 10%);
+  height: auto;
   margin: 0.6%;
   border-radius: 1em;
   color: #262524;
