@@ -1,6 +1,6 @@
 @media screen and (max-width: 700px) {
   .container {
-    padding: 3em !important;
+    padding: 1em !important;
   }
 
   h1.mb {
@@ -12,25 +12,14 @@
     display: none;
   }
 
-  main {
-    flex-direction: column;
-    justify-content: space-between;
-    height: 51em;
-    overflow: visible;
+  #work {
+    width: 100%;
   }
 
-  main .chunk {
-    font-size: 1.2em;
-  }
-
-  #hero .roles .category {
-    display: flex;
-    margin-bottom: 0.25em;
-  }
-
-  li {
-    margin-top: 0.5em;
-  }
+ .grid-item {
+  width: 90vw;
+  height: calc(90vw);
+ }
 
   footer {
     background-size: 200% !important;

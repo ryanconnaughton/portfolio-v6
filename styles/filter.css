@@ -1,7 +1,15 @@
+.grid-wrapper {
+  display: flex;
+  align-items: center;
+}
 .grid {
   margin-top: 0.25em;
-  margin-bottom: 5em;
+  margin-bottom: 5em
 }
+
+/* #work {
+  background: blue;
+} */
 
 .button-group {
   display: flex;
