@@ -46,7 +46,6 @@
 }
 
 /* ---- .grid-item ---- */
-
 .grid-item {
   position: relative;
   float: left;
@@ -83,7 +82,11 @@
   background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(0, 0, 0));
 }
 
-.grid-item + a:hover .title {
+/* .grid-item:first-child {
+  border: 5px solid red !important;
+} */
+
+.grid a.grid-item:hover .title {
   visibility: visible;
   z-index: 50;
 }
