@@ -33,20 +33,19 @@ li {
 }
 
 .hero-links ul {
+  display: flex;
   background: var(--color-blue);
   border-radius: 1em;
   font-size: 1.2em;
-  display: flex;
-  margin: 0.5em auto;
-  padding: 0 1em;
+  margin: 1.25em auto;
   justify-content: space-around;
-  max-width: 21.5em;
+  max-width: 18em;
 }
 
 .hero-links li {
   /* background: red; */
   text-decoration: none;
-  padding: 1em 0.5em;
+  padding: 1em 1em;
 }
 
 .hero-links li a {
