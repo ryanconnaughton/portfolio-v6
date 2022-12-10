@@ -1,0 +1,55 @@
+.button { background: var(--color-grey0); }
+.button.active { background: var(--color-navy); }
+
+.button.ux { color: var(--color-blue); }
+.button.ui { color: var(--color-orange); }
+.button.legacy { color:var(--color-green); }
+
+.button.ux.active { color: var(--color-light); background: var(--color-blue); }
+.button.ui.active { color: var(--color-light);  background: var(--color-orange); }
+.button.legacy.active { color: var(--color-light); background:var(--color-green); }
+
+
+.button-group {
+  display: flex;
+  justify-content: center;
+}
+
+.button-group > * {
+  margin: 0.25em;
+}
+s
+.button:active,
+.button.is-checked {
+  opacity: 1;
+}
+
+.button.is-checked {
+  color: white;
+}
+
+.button:active {
+  box-shadow: inset 0 1px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+/* clear fix */
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-item {
+  position: relative;
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 0.5em;
+  background: #888;
+  color: #262524;
+}
+

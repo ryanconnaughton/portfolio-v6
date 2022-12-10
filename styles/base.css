@@ -4,10 +4,12 @@
   scroll-behavior: smooth;
   --color-dark: #000000;
   --color-light: #ffffff;
-  --color-blue: #3582b9;
+  --color-navy: #255B81;
+  --color-blue: #3F88BC;
+  --color-grey0: #F1F1F1;
   --color-grey1: #707070;
-  --color-green: #4a832d;
-  --color-orange: #ff9b00;
+  --color-green: #00B200;
+  --color-orange: #FE9D00
 }
 *,
 *::before,
@@ -119,6 +121,10 @@ button:hover {
 }
 button.--primary {
   background: black;
+}
+button:disabled {
+  background: black;
+  color: var(--color-light);
 }
 /* .btn --secondary {
   border: 1px solid $color-primary;

@@ -1,5 +1,6 @@
 @import './_reset.css';
 @import './base.css';
+@import './filter.css';
 @import './responsive.css';
 
 .container {

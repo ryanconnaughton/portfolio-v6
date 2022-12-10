@@ -33,7 +33,7 @@ filtersElem.addEventListener('click', function (event) {
   iso.arrange({ filter: filterValue });
 });
 
-// change is-checked class on buttons
+// change active class on buttons
 var buttonGroups = document.querySelectorAll('.button-group');
 for (var i = 0, len = buttonGroups.length; i < len; i++) {
   var buttonGroup = buttonGroups[i];
@@ -46,8 +46,8 @@ function radioButtonGroup(buttonGroup) {
     if (!matchesSelector(event.target, 'button')) {
       return;
     }
-    buttonGroup.querySelector('.is-checked').classList.remove('is-checked');
-    event.target.classList.add('is-checked');
+    buttonGroup.querySelector('.active').classList.remove('active');
+    event.target.classList.add('active');
   });
 }
 
