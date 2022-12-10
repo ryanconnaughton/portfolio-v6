@@ -64,7 +64,7 @@ h3,
 h5,
 h6 {
   font-family: 'Poppins', sans-serif;
-  line-height: 1.3em;
+  line-height: 1.9;
 }
 h1 {
   font-size: 3.8em;
@@ -73,6 +73,7 @@ h1 {
 }
 h2 {
   font-size: 1.9em;
+  font-style: italic;
   color: var(--color-grey1);
 }
 h3 {

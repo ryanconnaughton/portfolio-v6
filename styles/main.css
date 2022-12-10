@@ -7,6 +7,7 @@
   border: 1px solid red !important;
 } */
 
+
 .container {
   margin: 0 auto;
   padding: 3em;
@@ -31,9 +32,32 @@ li {
   margin-bottom: 2em;
 }
 
-/* #work {
-  background: blue;
-} */
+.hero-links ul {
+  background: var(--color-blue);
+  border-radius: 1em;
+  font-size: 1.2em;
+  display: flex;
+  margin: 0.5em auto;
+  padding: 0 1em;
+  justify-content: space-around;
+  max-width: 21.5em;
+}
+
+.hero-links li {
+  /* background: red; */
+  text-decoration: none;
+  padding: 1em 0.5em;
+}
+
+.hero-links li a {
+  color: var(--color-light);
+}
+
+.hero-links li a:hover {
+  color: var(--color-grey0);
+}
+
+
 
 .hero-header {
   display: flex;
