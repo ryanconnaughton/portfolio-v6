@@ -3,11 +3,6 @@
 @import './filter.css';
 @import './responsive.css';
 
-/* * {
-  border: 1px solid red !important;
-} */
-
-
 .container {
   margin: 0 auto;
   padding: 3em;
@@ -20,30 +15,23 @@
   display: none;
 }
 
-ul {
-  margin-top: 0.5em;
-}
-li {
-  padding: 0.4em 0;
-}
-
 #hero {
   height: 100%;
-  margin-bottom: 2em;
+  margin-bottom: 0.5em;
 }
 
 .hero-links ul {
   display: flex;
   background: var(--color-blue);
-  border-radius: 1em;
+  border-radius: 1rem;
   font-size: 1.2em;
-  margin: 1.25em auto;
+  margin: 1em auto;
+  margin-bottom: 3em;
   justify-content: space-around;
-  max-width: 18em;
+  max-width: 16em;
 }
 
 .hero-links li {
-  /* background: red; */
   text-decoration: none;
   padding: 1em 1em;
 }
