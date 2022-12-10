@@ -26,44 +26,6 @@ li {
   padding: 0.4em 0;
 }
 
-.category {
-  padding-right: 1.3em;
-  font-family: proxima-nova, sans-serif;
-}
-
-.roles { font-style: italic; }
-.roles >* ::after {
-  right: 0.2em !important;
-}
-.--ux {
-  color: var(--color-blue);
-  position: relative;
-}
-.--ux::after {
-  position: absolute;
-  top: 0.1em;
-  right: 0;
-  content: '✏️';
-}
-.--tinkerer {
-  color: var(--color-green) !important;
-  position: relative;
-}
-.--tinkerer::after {
-  position: absolute;
-  right: 0;
-  content: '🛠';
-}
-.--researcher {
-  color: var(--color-orange) !important;
-  position: relative;
-}
-.--researcher::after {
-  position: absolute;
-  right: 0;
-  content: '🔬';
-}
-
 #hero {
   height: 100%;
   margin-bottom: 2em;
