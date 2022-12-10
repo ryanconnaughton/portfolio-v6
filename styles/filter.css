@@ -1,15 +1,8 @@
-.grid-wrapper {
-  display: flex;
-  align-items: center;
-}
 .grid {
+  height: auto;
   margin-top: 0.25em;
   margin-bottom: 5em
 }
-
-/* #work {
-  background: blue;
-} */
 
 .button-group {
   display: flex;
@@ -56,19 +49,17 @@
 /* ---- .grid-item ---- */
 .grid-item {
   position: relative;
-  float: left;
-  width: 300px;
-  height: 300px;
-  margin: 5px;
+  width: 32%;
+  height: calc(auto - 10%);
+  margin: 0.6%;
   border-radius: 1em;
-  background: #888;
   color: #262524;
 }
 
 .grid-item img {
   width: 100%;
-  border-radius: 1em;
   height: 100%;
+  border-radius: 1em;
 }
 
 .grid-item .title {

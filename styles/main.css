@@ -9,7 +9,7 @@
 
 .container {
   margin: 0 auto;
-  padding: 3em 5em 0 5em;
+  padding: 3em;
   max-width: 1100px;
   background: url('../assets/bg-pattern.png') no-repeat center bottom;
 }
