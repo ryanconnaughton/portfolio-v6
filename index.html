@@ -18,115 +18,37 @@
     <div class="container">
       <head>
         <div id="hero">
-          <h1 class="dt">Ryan Connaughton</h1>
-          <h1 class="mb">Ryan C</h1>
-          <div class="roles">
-            <h2>
-              <span class="category --ux">UX Design</span>
-              <span class="category --researcher">UX Research</span>
-              <span class="category --tinkerer">Tinkering</span>
-            </h2>
+          <div class="hero-header">
+            <h1 class="dt">Ryan Connaughton</h1>
+            <h1 class="mb">Ryan C</h1>
+            <div class="roles">
+              <h2>UX Designer & Engineer</h2>
+            </div>
           </div>
-          <div class="cta" id="cta-email">
-            <button class="--primary">Reveal my email</button>
-          </div>
+
+          <!-- <div class="hero-links">
+            <div class="cta" id="cta-email">
+              <button class="--primary">Reveal my email</button>
+            </div>
+          </div> -->
         </div>
       </head>
-
-      <main>
-        <div class="chunk">
-          <h3>Overview</h3>
-          <ul>
-            <li>
-              <a
-                class="category"
-                href="/assets/ryan_connaughton-cv-resume.pdf"
-                target="_blank"
-                >C.V/Résumé</a
-              >
-            </li>
-            <li>
-              <a
-                class="category"
-                href="https://linkedin.com/in/ryanconnaughton"
-                target="_blank"
-                >LinkedIn</a
-              >
-            </li>
-            <li>
-              <a
-                class="category --tinkerer"
-                href="https://github.com/ryanconnaughton"
-                target="_blank"
-                >GitHub</a
-              >
-            </li>
-          </ul>
+      <main id="work">
+        <div class="filters-button-group button-group">
+          <button class="button active" data-filter="*">💼 all</button>
+          <button class="button ux" data-filter=".ux">📈 ux</button>
+          <button class="button ui" data-filter=".ui">✏️ ui</button>
+          <button class="button legacy" data-filter=".legacy">🎨 legacy</button>
         </div>
-
-        <div class="chunk __second">
-          <h3>Work</h3>
-          <ul>
-            <li>
-              <a
-                class="category --ux --research"
-                href="https://www.dropbox.com/sh/gtxia625xzp58z8/AABOHktgTR2C6NJXoTavc8LSa?dl=0"
-                target="_blank"
-                >Examples</a
-              >🔬
-            </li>
-            <li>
-              <a
-                class="category --researcher"
-                href="https://medium.com/@ryanconnaughton"
-                target="_blank"
-                >Case Studies</a
-              >✏️
-            </li>
-            <li>
-              <a
-                class="category --tinkerer"
-                href="https://tertle.io"
-                target="_blank"
-                >Tertle</a
-              >🐢
-            </li>
-          </ul>
-        </div>
-
-        <div class="chunk">
-          <h3>Talks</h3>
-          <ul>
-            <li>
-              <a class="category" href="https://bit.ly/3kxbf3f" target="_blank"
-                >YouTube</a
-              >
-            </li>
-            <li>
-              <a
-                class="category"
-                href="https://vimeo.com/ryanconnaughton"
-                target="_blank"
-                >Vimeo</a
-              >
-            </li>
-          </ul>
+        <div id="work" class="grid">
+          <div class="grid-item ux">ux</div>
+          <div class="grid-item ux">ux</div>
+          <div class="grid-item ui">ui</div>
+          <div class="grid-item legacy">visual</div>
         </div>
       </main>
-
-      <div class="filters-button-group button-group">
-        <button class="button active" data-filter="*">💼 all</button>
-        <button class="button ux" data-filter=".ux">📈 ux</button>
-        <button class="button ui" data-filter=".ui">✏️ ui</button>
-        <button class="button legacy" data-filter=".legacy">🎨 legacy</button>
-      </div>
-      <div id="work" class="grid">
-        <div class="grid-item ux">ux</div>
-        <div class="grid-item ux">ux</div>
-        <div class="grid-item ui">ui</div>
-        <div class="grid-item legacy">visual</div>
-      </div>
     </div>
+
     <footer>© Ryan Connaughton Ltd <span class="year"></span></footer>
 
     <script>
